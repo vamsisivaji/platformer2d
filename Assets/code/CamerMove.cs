@@ -8,6 +8,7 @@ public class CamerMove : MonoBehaviour
     public Transform playerTransform;
     public GameObject xt;
     public Vector3 offset;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,8 @@ public class CamerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         CameraFollow();
-
     }
 
     private void CameraFollow()

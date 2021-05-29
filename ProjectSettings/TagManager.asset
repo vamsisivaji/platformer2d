@@ -10,6 +10,11 @@ TagManager:
   - Coin
   - Castle
   - bound
+  - Head
+  - Bullet
+  - collectable
+  - OutOfBound
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
